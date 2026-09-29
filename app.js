@@ -1,6 +1,6 @@
-	const express = require('express');
-	const app = express();
-	const PORT = 3000;
+const express = require('express');
+const app = express();
+const PORT = 3000;
 
     // Middleware agar req.body (JSON) dapat dibaca
 app.use(express.json());
